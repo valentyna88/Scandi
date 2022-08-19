@@ -5,49 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>SCANDI</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-wrapper wrapper">
-                <img src="img/logo.png" alt="Логотип SCANDI">
-                <img src="img/SCANDI.svg" alt="SCANDI">
-            
+    <header class="page-header">
+        <div class="wide-container">
+            <a class="logo">
+                <img src="img/logo.png" alt="Логотип компании SCANDI - графическое изображение торшера" width="25" height="25">
+                SCANDI
+            </a>>
         
-                <nav class="main-menu">
-                    <ul>
-                        <li><a href="#">О компании</a></li>
-                        <li><a href="#">Портфолио</a></li>
-                        <li><a href="#">Команда</a></li>
-                        <li><a href="#">Как мы работаем</a></li>
-                        <li><a href="#">Отзывы клиентов</a></li>
-                        <li><a href="#">Оставить заявку</a></li>
-                        <li><a href="tel:+79818574624">+7 (981) 857-46-24</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">О компании</a></li>
+                    <li class="nav-item"><a href="#works" class="nav-link">Портфолио</a></li>
+                    <li class="nav-item"><a href="#team" class="nav-link">Команда</a></li>
+                    <li class="nav-item"><a href="#process-list" class="nav-link">Как мы работаем</a></li>
+                    <li class="nav-item"><a href="#rewievs" class="nav-link">Отзывы клиентов</a></li>
+                    <li class="nav-item"><a href="#form" class="nav-link">Оставить заявку</a></li>
+                </ul>    
+            </nav>        
+            <a href="tel:+79818574624" class="phone">+7 (981) 857-46-24</a></li>
         </div>
     </header>
 
     <main>
-        <section class="home">
-            <div>
-                <h1 class="home-heading">Поможем сделать вашу квартиру уютнее</h1>
-                <div>
-                    <p class="home-text">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку </p>
-                </div>
-                <div>
-                    <button class="btn-home"><a href="#">Оставить заявку</a></button>
+        <section class="promo">
+            <div class="container">
+                <div class="promo-text">
+                    <h1 class="main-heading">Поможем сделать вашу квартиру уютнее</h1>
+                    <p class="promo-description">Подбираем текстиль, мебель и аксессуары под&nbsp;ваш&nbsp;интерьер, находим магазины 
+                        <br>и помогаем организовать доставку 
+                    </p>
+                    <a href="#form" class="button promo-button">Оставить заявку</a>
                 </div>
             </div>
         </section>
-    </main>
-
-    <section>
-        <h1>О нас</h1>
-        <div>
-            <img src="img/section2.jpg" alt="Сервировка стола">
+    
+        <section class="about" id="about">
+            <div class="container">
+        <h2 class="section-heading">О нас</h2>
+        <div class="half-wrap">
+            <img src="img/section2.jpg" alt="Белая ваза с сухоцветами на обеденном столе, по бокам от вазыпрозрачные бокалы" class="about-img" width="445" height="465">
             <div>
                 <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии.</p>
                 <p>Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»</p>
@@ -60,7 +59,8 @@
                 <li>10 наград</li>
             </ul>
         </div>
-    </section>
+        </div>
+        </section>
 
     <section>
         <h1>Наши работы</h1>
@@ -126,6 +126,7 @@
         </div>
         
     </article>
+    </main>
         
     <footer>
         <div>
